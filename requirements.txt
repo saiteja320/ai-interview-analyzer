@@ -1,0 +1,17 @@
+# Core app
+streamlit>=1.38
+PyMuPDF>=1.24
+scikit-learn>=1.3
+numpy>=1.26
+
+# ---------------------------------------------------------------------------
+# Optional — real AI models (heavy). Uncomment to enable real (non-demo)
+# speech-to-text / computer-vision analysis. These add significant build
+# time and memory, and may exceed Streamlit Community Cloud's free-tier
+# resource limits, so they are OFF by default. The app runs fully end to
+# end without them, using clearly-labeled demo outputs instead.
+# ---------------------------------------------------------------------------
+# openai-whisper
+# torch
+# opencv-python-headless
+# mediapipe
